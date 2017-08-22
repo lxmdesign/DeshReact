@@ -1,0 +1,92 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-18 10:06:20
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-18 16:41:42
+*/
+.content::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.content{
+	clear: both;
+	width:100%;
+	min-height:400px;
+	position: absolute;
+	background-color: #ffffff;
+
+}
+
+.content p{
+	text-indent: 2em;
+	font-size: 15px;
+	color: #666666;
+	text-align: left;
+	padding: 10px 20px;
+	line-height: 24px;
+}
+.content a{
+	color:#4990E2;
+	font-size: 15px;
+	float: left;
+    padding-left: 21px;
+}
+.bottom{
+	width: 80%;
+  	background-color: #161718;
+  	color: #D2C476;
+  	font-size: 18px;
+  	padding:15px 0;
+	text-align: center;
+	margin:20px auto;
+}
+
+.bodyInfo_list li{
+	border-bottom: 1px solid #ddd;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	padding: 15px;
+  }
+  .body_info_left{
+	font-size: 15px;
+  }
+  .body_info_right{
+	flex: 1;
+	padding-left: 30px;
+  }
+  .body_info_date{
+	font-size: 20px;
+	padding-bottom: 5px;
+  }
+  .body_info_title{
+	font-size: 17px;
+  }
+  .body_info_money{
+	font-size: 14px;
+	padding-top: 10px;
+	color: #aaa
+  }
+  .info_label{
+	display: inline-block;
+	background-color: #aaa;
+	color: #fff;
+	width: 40px;
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	margin-left: 10px;
+	border-radius: 2px;
+	}
+	.btn-bottom{
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding: 15px 0;
+		background-color: #161714;
+    color: #d2c476;
+		font-size: 18px;
+		border: 1px solid #d2c476;
+		border-radius: 3px;
+	}
